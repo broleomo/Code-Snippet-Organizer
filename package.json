@@ -1,0 +1,22 @@
+{
+  "name": "Code-Snippet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express-session": "^1.15.5",
+    "express-mustache": "^1.0.3",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.10.8",
+    "express-validator": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
