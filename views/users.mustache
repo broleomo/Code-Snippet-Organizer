@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>User Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1>Welcome {{username}}!</h1>
 
 <input type="text" placeholder="Add a title" name="title" />
-<input type="textarea" placeholder="Add your code" name="body" />
+<textarea rows="4" cols="10" placeholder="Add your code" name="body" />
 <input type="textarea" placeholder="Notes" name="notes" />
 <select value="Tag">
          <option value="">front-end</option>
@@ -16,5 +17,7 @@
          <option value="">authentication</option>
          <option value="">security</option>
      </select>
+     <button type="submit">Create Snippet</button>
+     <script src="index.js"></script>
   </body>
 </html>
